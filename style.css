@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Welcome;
+    src: url(Poppins-Bold.ttf);
+}
+
+body {
+    background: url("construct.webp") no-repeat fixed;
+    object-fit: cover;
+}
+
+.head {
+    font-family: "Arial";
+}
+
+.homepageimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    width: 60%;
+}
+
+.logo {
+    height: 8%;
+    width: 16%;
+    float: left;
+}
+
+.head {
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+a:hover {
+    background-color: rgba(149, 127, 87, 255);
+}
+
+button {
+    padding: 0;
+    border: none;
+    border-radius: 9px;
+    background-color: rgba(61, 61, 61, 27);
+}
+
+.VarunJi:hover {
+    color: brown;
+    background-color: transparent;
+}
+
+p {
+    font-family: Welcome;
+    text-align: center;
+    margin: 0.2%;
+    font-size: 400%;
+    font-style: italic;
+    color: rgba(149, 127, 87, 255);
+}
