@@ -4,12 +4,22 @@
 }
 
 body {
-    background: url("construct.webp") no-repeat fixed;
+    background: url("construct1.jpeg") no-repeat fixed;
     object-fit: cover;
+}
+
+.homeimg {
+    margin-top: 2%;
+    border-radius: 25px;
+    width: 100%;
 }
 
 .head {
     font-family: "Arial";
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .homepageimg {
@@ -20,17 +30,19 @@ body {
     width: 60%;
 }
 
+.homeintro {
+    font-size: x-large;
+    padding: 30px;
+}
+
 .logo {
     height: 8%;
     width: 16%;
     float: left;
 }
 
-.head {
-    justify-content: center;
-    display: flex;
-    margin: 0;
-    padding: 0;
+td {
+    font-size: large;
 }
 
 a {
@@ -56,6 +68,27 @@ button {
 .VarunJi:hover {
     color: brown;
     background-color: transparent;
+}
+
+.homelink {
+    color: blue;
+    text-align: left;
+    display: inline;
+}
+
+.homelink:hover {
+    color: brown;
+    background-color: transparent;
+}
+
+table td video {
+    margin-top: 5%;
+}
+
+video {
+    border-radius: 5%;
+    width: 700px;
+    height: 400px; 
 }
 
 p {
